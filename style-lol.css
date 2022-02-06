@@ -1,0 +1,111 @@
+body{
+    background-image: url(https://cdn1.epicgames.com/salesEvent/salesEvent/EGS_LeagueofLegends_RiotGames_S1_2560x1440-ee500721c06da3ec1e5535a88588c77f);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    font-family: 'Montserrat', sans-serif;
+    color: rgb(164, 217, 233);
+    text-align: center;
+    font-size: 1.5em;
+    text-shadow: 1.5px 1.5px rgb(0, 47, 255);
+
+}
+
+p {
+    margin: 0;
+}
+
+.title  {
+  
+    margin: 200px auto 100px;
+    width: 80%;
+
+   
+}
+
+.champ-img {
+    display: flex;
+    padding: 20px;
+    margin: 0 auto;
+    justify-content: space-evenly;
+    position: relative;
+
+}
+
+.champ img {
+    width: 200px;
+    height: 350px;
+    object-fit: cover;
+    transition: 0.35s;
+    position: relative;
+    border-radius: 5px 5px 0 0;
+}
+
+.banners {
+      margin: 0;
+      position: relative;
+      transition: 0.35s;
+      border-radius: 3px;
+
+}
+
+.banner-text {
+    margin-top: -7px;
+    padding: 20px;
+    background-color: black;
+    border-radius: 0 0 5px 5px;
+    
+    color: rgb(169, 155, 110);
+    text-shadow: 0px 0px;
+    position: relative;
+}
+
+.champ img:hover {
+    width: 203px;
+    height: 353px;
+    position: relative;
+    border-radius: 0;
+}
+
+.banners:hover{
+    box-shadow: 3px 3px 10px 1px black;
+    position: relative;
+    border-radius: 0;
+}
+
+.banner-text p{
+    font-size: 12px;
+}
+.season {
+    margin-top: 30px;
+}
+.button {
+    width: 200px;
+    height: 50px;
+    border:2px solid rgb(71, 175, 255);
+    text-decoration: none;
+    color: rgba(133, 195, 237, 0.8);
+    background: rgb(62, 133, 209);
+    padding: 15px 40px;
+    font-weight: bold;
+    font-size: 0.6em;
+    transition: all 0.2s ease-in-out;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px auto;
+  
+}
+.button:hover {
+    color: rgba(255, 255, 255, 1);
+    box-shadow: 0 5px 15px rgba(18, 71, 151, 0.953);
+    background-color: rgb(19, 128, 223);
+}
+a{
+    text-decoration: none;
+    color: inherit;
+}
+
+.season-text{
+    margin-bottom: 30px;
+} 

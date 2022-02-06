@@ -1,0 +1,217 @@
+body{
+    background-color: black;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+   
+}
+li {
+    margin: 0;
+}
+
+
+a{
+    text-decoration: none;
+    color: inherit;
+}
+
+.top {
+    font-size: 25px;
+    background-image: url(https://upload.wikimedia.org/wikipedia/commons/7/7a/Riot_Games_Headquarters.jpg);
+    background-position:center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: fit-content;
+    padding: 20px;
+}
+.title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.title a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    color: inherit;
+}
+
+
+.title :hover h1{
+    color: rgb(199, 49, 49);
+
+}
+.title h1{
+    transition: 0.3s;
+}
+
+.title img {
+    border-radius: 50%;
+    height: 80px;
+    width: 80px;
+    margin-right: 20px;
+    transition: 0.3s;
+
+}
+
+.title :hover img {
+    height:90px ;
+    width: 90px;
+}
+
+.top p {
+    text-shadow:1px 1px rgb(22, 22, 22);
+}
+
+.top-text {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.games {
+    height: 100px;
+    background-color: rgb(199, 49, 49);
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 0.3s;
+
+}
+.games-title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.games-dropdown {
+    height: 0;
+    top: 0;
+    position: absolute;
+    display: none;
+    background-color: black;
+    font-size: 20px;
+    height: 100px;
+
+}
+.games:hover  .games-dropdown {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+}
+.games ul {
+    display: flex;
+    list-style-type: none;
+
+}
+.games li {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 20px;
+    width:fit-content;
+    transition: 0.3s;
+    margin: 0 5px;
+    border-radius: 2px;
+}
+.games li:hover {
+    background-color: rgb(199, 49, 49);
+}
+.games h1 {
+    margin: 0;
+}
+/*rgb(133, 31, 31)*/
+
+.arcane {
+    padding: 50px;
+    font-size: 1.5em;
+    color: rgb(169, 155, 110);
+    background-position:center;
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-image: url(https://www.riotgames.com/darkroom/1440/b540da2b9afe5ec83e842a2d84f6dbb1:e95535ecd35e48592908762c9353926a/arcane-final-poster-16x9-no-text-no-border.jpg);
+}
+
+.arcane-text {
+    width: 80%;
+    margin: 50px auto 0;
+    text-shadow:1px 1px rgb(95, 95, 95);
+}
+
+
+.arcane h1 {
+    margin: 0;
+}
+.arcane-img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.video {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.EGIGIN-HUSSEN-ZAI {
+    width: 100%;
+    height: 50px;
+    background-color: rgb(199, 49, 49);
+}
+
+.kda {
+    padding: 50px;
+    background-position:top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image:url(https://wallpapercave.com/wp/wp4576889.jpg);
+    color: rgb(167, 95, 235);
+    
+}
+
+.kda-text {
+    width: 80%;
+    font-size: 1.5em;
+    margin: 0 auto;
+    text-shadow:1px 1px rgb(117, 41, 136);
+
+}
+
+.kda p{
+    margin-top: 250px;
+}
+
+.kda h1{
+    width: fit-content;
+    font-size: 2.5em;
+   margin: 0 auto;
+    transition: all 0.2s ease-in-out;
+
+ 
+
+}
+
+.kda h1:hover {
+    color: rgb(86, 25, 92);
+  
+    
+}
+
+
+.kda-img {
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+
+}
+
+@media (max-width:700px) {
+
+   
+}
+
+
